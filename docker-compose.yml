@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  line-webhook-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: line-webhook-server
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - SERVER_PORT=8000
+      - MESSAGES_FILE=/app/data/messages.json
+      # เราไม่ต้องใช้ CLOUDFLARE_TOKEN ใน container แล้ว
+      # เนื่องจากใช้ Windows Service ที่ติดตั้งแล้ว
+    volumes:
+      - ./data:/app/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
