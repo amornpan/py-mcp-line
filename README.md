@@ -198,32 +198,3 @@ These versions have been tested and verified to work together. The key component
 * Model Context Protocol community
 * Python FastAPI community
 * Contributors to the python-dotenv project
-
-## License and Copyright
-
-### Proprietary License
-
-© 2025 Amornpan Phornchaicharoen. All Rights Reserved.
-
-This software and its documentation are proprietary and confidential. 
-
-**IMPORTANT NOTICE:**
-No part of this software, including but not limited to the source code, documentation, design, architecture, and functionality, may be reproduced, distributed, modified, adapted, transmitted, stored, displayed, or otherwise used in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without the prior written permission of the copyright owner, Amornpan Phornchaicharoen.
-
-### Usage Restrictions
-
-1. Any use of this software requires explicit written permission from Amornpan Phornchaicharoen.
-2. Permission for use must be obtained before any deployment, modification, or distribution.
-3. Unauthorized use, reproduction, or distribution of this software is strictly prohibited and may result in legal action.
-4. No transfer of ownership rights is permitted without explicit written agreement.
-
-### Contact for Permissions
-
-For permissions and licensing inquiries, please contact the copyright owner:
-
-**Amornpan Phornchaicharoen**  
-Email: amornpan@gmail.com
-
----
-
-By accessing, viewing, or using this software in any way, you acknowledge that you have read, understood, and agreed to these terms.
